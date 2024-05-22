@@ -1,0 +1,26 @@
+\begin{tabular}{llllllll}
+\toprule
+Classifier & Scaler & Std Accuracy & Mean Accuracy & Mean Macro OVR ROC AUC & Mean Macro F1 & Mean Macro Recall & Best Hyperparameters Values \\
+\midrule
+RandomForest & Standard & 0.06 & 0.655 & 0.744 & 0.548 & 0.555 & {{n\_estimators: 200}} \\
+RandomForest & None & 0.07 & 0.650 & 0.749 & 0.542 & 0.551 & {{n\_estimators: 200}} \\
+XGBoost & None & 0.08 & 0.639 & 0.723 & 0.554 & 0.556 & {{learning\_rate: 1.0,  n\_estimators: 200}} \\
+GradientBoosting & Standard & 0.07 & 0.637 & 0.707 & 0.522 & 0.533 & {{n\_estimators: 50,  learning\_rate: 0.1}} \\
+XGBoost & Standard & 0.08 & 0.637 & 0.722 & 0.555 & 0.555 & {{n\_estimators: 50,  learning\_rate: 0.1}} \\
+Bagging & None & 0.08 & 0.633 & 0.734 & 0.528 & 0.538 & {{n\_estimators: 200}} \\
+Bagging & Standard & 0.07 & 0.633 & 0.734 & 0.527 & 0.536 & {{n\_estimators: 200}} \\
+LightGBM & Standard & 0.07 & 0.623 & 0.712 & 0.507 & 0.521 & {{n\_estimators: 100,  learning\_rate: 0.01}} \\
+LightGBM & None & 0.07 & 0.622 & 0.705 & 0.511 & 0.522 & {{learning\_rate: 0.01,  n\_estimators: 200}} \\
+GradientBoosting & None & 0.08 & 0.616 & 0.711 & 0.504 & 0.515 & {{n\_estimators: 50,  learning\_rate: 0.1}} \\
+AdaBoost & Standard & 0.06 & 0.611 & 0.651 & 0.464 & 0.493 & {{n\_estimators: 100,  learning\_rate: 0.1}} \\
+AdaBoost & None & 0.06 & 0.611 & 0.651 & 0.464 & 0.493 & {{n\_estimators: 100,  learning\_rate: 0.1}} \\
+KNeighbors & None & 0.08 & 0.578 & 0.672 & 0.491 & 0.497 & {{n\_neighbors: 3}} \\
+DecisionTree & Standard & 0.07 & 0.577 & 0.652 & 0.468 & 0.478 & {{max\_depth: 3}} \\
+DecisionTree & None & 0.08 & 0.574 & 0.651 & 0.464 & 0.477 & {{max\_depth: 3}} \\
+KNeighbors & Standard & 0.07 & 0.549 & 0.643 & 0.442 & 0.454 & {{n\_neighbors: 7}} \\
+GaussianNB & None & 0.06 & 0.511 & 0.672 & 0.355 & 0.398 & {{}} \\
+GaussianNB & Standard & 0.06 & 0.478 & 0.664 & 0.295 & 0.368 & {{}} \\
+Dummy & None & 0.01 & 0.463 & 0.500 & 0.211 & 0.333 & {{strategy: most\_frequent}} \\
+Dummy & Standard & 0.01 & 0.463 & 0.500 & 0.211 & 0.333 & {{strategy: most\_frequent}} \\
+\bottomrule
+\end{tabular}

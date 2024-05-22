@@ -1,0 +1,9 @@
+\begin{tabular}{llllllll}
+\toprule
+Classifier & Scaler & Std Accuracy & Mean Accuracy & Mean Macro OVR ROC AUC & Mean Macro F1 & Mean Macro Recall & Best Hyperparameters Values \\
+\midrule
+RandomForest & Standard & 0.06 & 0.655 & 0.744 & 0.548 & 0.555 & {{n\_estimators: 200}} \\
+XGBoost & None & 0.08 & 0.639 & 0.723 & 0.554 & 0.556 & {{learning\_rate: 1.0,  n\_estimators: 200}} \\
+GradientBoosting & Standard & 0.07 & 0.637 & 0.707 & 0.522 & 0.533 & {{n\_estimators: 50,  learning\_rate: 0.1}} \\
+\bottomrule
+\end{tabular}

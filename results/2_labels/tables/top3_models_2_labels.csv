@@ -1,0 +1,4 @@
+Classifier,Scaler,Std Accuracy,Mean Accuracy,Mean Macro OVR ROC AUC,Mean Macro F1,Mean Macro Recall,Best Hyperparameters Values
+RandomForest,Standard,0.06,0.784,0.808,0.752,0.744,{{n\_estimators: 200}}
+XGBoost,None,0.05,0.772,0.776,0.742,0.736,"{{learning\_rate: 0.01,  n\_estimators: 200}}"
+Bagging,None,0.07,0.760,0.787,0.732,0.727,{{n\_estimators: 100}}

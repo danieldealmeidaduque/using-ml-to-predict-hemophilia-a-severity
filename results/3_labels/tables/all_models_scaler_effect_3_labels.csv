@@ -1,0 +1,4 @@
+Scaler,Mean Accuracy,Mean Accuracy,Mean Macro OVR ROC AUC,Mean Macro OVR ROC AUC,Mean Macro F1,Mean Macro F1,Mean Macro Recall,Mean Macro Recall
+,mean,std,mean,std,mean,std,mean,std
+None,0.590,0.06,0.677,0.07,0.462,0.10,0.488,0.07
+Standard,0.586,0.07,0.673,0.07,0.454,0.11,0.483,0.08
