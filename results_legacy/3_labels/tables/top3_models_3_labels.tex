@@ -1,0 +1,9 @@
+\begin{tabular}{lllllll}
+\toprule
+Classifier & Scaler & Accuracy & ROC AUC OVR & F1 & Recall & Best Hyperparameters Values \\
+\midrule
+RandomForest & Standard & 0.655 (0.63, 0.68) & 0.744 (0.72, 0.77) & 0.548 (0.52, 0.57) & 0.555 (0.53, 0.58) & {{n\_estimators: 200}} \\
+XGBoost & None & 0.639 (0.61, 0.67) & 0.723 (0.69, 0.75) & 0.554 (0.53, 0.58) & 0.556 (0.53, 0.58) & {{learning\_rate: 1.0, n\_estimators: 200}} \\
+Bagging & None & 0.635 (0.61, 0.66) & 0.735 (0.71, 0.76) & 0.530 (0.50, 0.56) & 0.539 (0.51, 0.57) & {{n\_estimators: 200}} \\
+\bottomrule
+\end{tabular}

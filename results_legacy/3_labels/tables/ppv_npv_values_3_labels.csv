@@ -1,0 +1,21 @@
+Classifier,Scaler,PPV mild,NPV mild,PPV moderate,NPV moderate,PPV severe,NPV severe
+XGBoost,None,0.662,0.771,0.439,0.856,0.656,0.803
+XGBoost,Standard,0.659,0.767,0.451,0.857,0.651,0.801
+RandomForest,Standard,0.652,0.794,0.590,0.851,0.669,0.816
+RandomForest,None,0.648,0.786,0.571,0.850,0.665,0.814
+Bagging,Standard,0.641,0.766,0.436,0.847,0.654,0.807
+Bagging,None,0.639,0.767,0.444,0.848,0.663,0.808
+GradientBoosting,Standard,0.636,0.789,0.385,0.843,0.678,0.798
+LightGBM,None,0.634,0.772,0.380,0.843,0.644,0.789
+GradientBoosting,None,0.632,0.772,0.407,0.845,0.667,0.799
+LightGBM,Standard,0.623,0.774,0.460,0.844,0.646,0.787
+KNeighbors,None,0.608,0.718,0.353,0.848,0.593,0.756
+DecisionTree,Standard,0.584,0.722,0.320,0.838,0.610,0.757
+DecisionTree,None,0.579,0.721,0.342,0.840,0.610,0.751
+AdaBoost,None,0.572,0.742,0.464,0.836,0.606,0.750
+KNeighbors,Standard,0.572,0.700,0.250,0.835,0.576,0.736
+AdaBoost,Standard,0.572,0.742,0.464,0.836,0.606,0.750
+GaussianNB,None,0.511,0.751,0.200,0.831,0.662,0.676
+GaussianNB,Standard,0.489,0.735,0.217,0.832,0.625,0.648
+Dummy,None,0.463,nan,nan,0.829,nan,0.634
+Dummy,Standard,0.463,nan,nan,0.829,nan,0.634
