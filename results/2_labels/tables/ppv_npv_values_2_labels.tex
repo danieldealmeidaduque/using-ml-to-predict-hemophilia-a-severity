@@ -1,0 +1,26 @@
+\begin{tabular}{llllll}
+\toprule
+Classifier & Scaler & PPV non-severe & NPV non-severe & PPV severe & NPV severe \\
+\midrule
+RandomForest & None & 0.794 & 0.753 & 0.753 & 0.794 \\
+RandomForest & Standard & 0.793 & 0.762 & 0.762 & 0.793 \\
+XGBoost & None & 0.791 & 0.729 & 0.729 & 0.791 \\
+XGBoost & Standard & 0.790 & 0.727 & 0.727 & 0.790 \\
+Bagging & None & 0.789 & 0.698 & 0.698 & 0.789 \\
+Bagging & Standard & 0.787 & 0.690 & 0.690 & 0.787 \\
+LightGBM & Standard & 0.782 & 0.703 & 0.703 & 0.782 \\
+GradientBoosting & Standard & 0.768 & 0.702 & 0.702 & 0.768 \\
+GradientBoosting & None & 0.767 & 0.703 & 0.703 & 0.767 \\
+LightGBM & None & 0.767 & 0.691 & 0.691 & 0.767 \\
+DecisionTree & None & 0.751 & 0.633 & 0.633 & 0.751 \\
+AdaBoost & Standard & 0.744 & 0.698 & 0.698 & 0.744 \\
+AdaBoost & None & 0.743 & 0.697 & 0.697 & 0.743 \\
+DecisionTree & Standard & 0.740 & 0.630 & 0.630 & 0.740 \\
+KNeighbors & Standard & 0.735 & 0.604 & 0.604 & 0.735 \\
+KNeighbors & None & 0.730 & 0.567 & 0.567 & 0.730 \\
+GaussianNB & Standard & 0.729 & 0.608 & 0.608 & 0.729 \\
+GaussianNB & None & 0.722 & 0.613 & 0.613 & 0.722 \\
+Dummy & None & 0.634 & nan & nan & 0.634 \\
+Dummy & Standard & 0.634 & nan & nan & 0.634 \\
+\bottomrule
+\end{tabular}

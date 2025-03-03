@@ -1,9 +1,9 @@
-\begin{tabular}{llllllll}
+\begin{tabular}{lllllll}
 \toprule
-Classifier & Scaler & Std Accuracy & Mean Accuracy & Mean Macro OVR ROC AUC & Mean Macro F1 & Mean Macro Recall & Best Hyperparameters Values \\
+Classifier & Scaler & Accuracy & ROC AUC OVR & F1 & Recall & Best Hyperparameters Values \\
 \midrule
-RandomForest & Standard & 0.06 & 0.784 & 0.808 & 0.752 & 0.744 & {{n\_estimators: 200}} \\
-XGBoost & None & 0.05 & 0.772 & 0.776 & 0.742 & 0.736 & {{learning\_rate: 0.01,  n\_estimators: 200}} \\
-Bagging & None & 0.07 & 0.760 & 0.787 & 0.732 & 0.727 & {{n\_estimators: 100}} \\
+RandomForest & Standard & 0.784 (0.76, 0.81) & 0.808 (0.78, 0.84) & 0.752 (0.72, 0.78) & 0.744 (0.72, 0.77) & {{n\_estimators: 200}} \\
+XGBoost & None & 0.772 (0.75, 0.79) & 0.776 (0.75, 0.81) & 0.742 (0.72, 0.76) & 0.736 (0.71, 0.76) & {{n\_estimators: 200, learning\_rate: 0.01}} \\
+Bagging & None & 0.760 (0.73, 0.79) & 0.787 (0.76, 0.82) & 0.732 (0.70, 0.76) & 0.727 (0.70, 0.76) & {{n\_estimators: 100}} \\
 \bottomrule
 \end{tabular}
